@@ -1029,8 +1029,8 @@ a:focus {
     height: 100%;
     top: 0;
     left: 0;
-    display: flex;
-    align-items: center;
+    display: block;
+    align-items: baseline;
     justify-content: center;
     transition: .5s;
 }
@@ -1047,13 +1047,13 @@ a:focus {
     border-radius: 40px;
     font-size: 16px;
     color: #ffffff;
-    background: #fbaf32;
+    background: black;
     opacity: 0;
 }
 
 .team .team-social a:hover {
     color: #ffffff;
-    background: #719a0a;
+    background: red;
 }
 
 .team .team-item:hover .team-social {
@@ -1088,7 +1088,7 @@ a:focus {
     position: relative;
     padding: 25px 15px;
     text-align: center;
-    background: #ffffff;
+    background: black;
     border: 1px solid rgba(0, 0, 0, .07);
     border-top: none;
     border-radius: 0 0 15px 15px;
@@ -1851,7 +1851,7 @@ a:focus {
     padding-bottom: 10px;
     font-size: 22px;
     font-weight: 700;
-    color: #fbaf32;
+    color: red;
 }
 
 .footer .footer-contact h2::after,
@@ -1869,7 +1869,7 @@ a:focus {
 .footer .footer-link a {
     display: block;
     margin-bottom: 10px;
-    color: #454545;
+    color: yellowgreen;
     transition: .3s;
 }
 
@@ -1879,17 +1879,17 @@ a:focus {
     font-family: "Font Awesome 5 Free";
     font-weight: 900;
     margin-right: 10px;
-    color: #fbaf32;
+    color: black;
 }
 
 .footer .footer-link a:hover {
-    color: #fbaf32;
+    color: black;
     letter-spacing: 1px;
 }
 
 .footer .footer-contact p i {
     width: 25px;
-    color: #fbaf32;
+    color: black;
 }
 
 .footer .footer-social {
@@ -1906,14 +1906,14 @@ a:focus {
     display: flex;
     align-items: center;
     justify-content: center;
-    background: #fbaf32;
+    background: black;
     border-radius: 35px;
     font-size: 16px;
     color: #ffffff;
 }
 
 .footer .footer-social a:hover {
-    background: #719a0a;
+    background: red;
 }
 
 .footer .footer-social a:last-child {
@@ -1928,7 +1928,7 @@ a:focus {
 .footer .footer-newsletter input {
     height: 60px;
     background: transparent;
-    border: 1px solid #fbaf32;
+    border: 1px solid red;
     border-radius: 5px;
 }
 
@@ -1957,9 +1957,9 @@ a:focus {
 }
 
 .footer .copyright p a {
-    color: #fbaf32;
+    color: greenyellow;
 }
 
 .footer .copyright p a:hover {
-    color: #719a0a;
+    color: wheat;
 }
